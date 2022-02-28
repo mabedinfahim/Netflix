@@ -1,0 +1,29 @@
+* {
+    border: none;
+    margin: none;
+    box-sizing: border-box;
+}
+
+.main-div {
+    width: 100vw;
+    height: 100vh;
+    background-color: #F7F7F7;
+    display: grid;
+    place-items: center;
+}
+
+.center-div {
+    width: 100%;
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+}
+
+img {
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.center-div::-webkit-scrollbar {
+    overflow: hidden;
+}
